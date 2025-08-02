@@ -37,12 +37,12 @@ function love.conf(t)
 
   t.window.title          = product_config["PRODUCT_NAME"]
   t.window.icon           = nil
-  t.window.width          = 1920
-  t.window.height         = 1080
+  t.window.width          = 650
+  t.window.height         = 1000
   t.window.borderless     = false
   t.window.resizable      = false
-  t.window.minwidth       = 1
-  t.window.minheight      = 1
+  t.window.minwidth       = 650
+  t.window.minheight      = 1000
   t.window.fullscreen     = false
   t.window.fullscreentype = "desktop"
   t.window.vsync          = 1
